@@ -1,0 +1,24 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="CHẤT LƯỢNG NƯỚC" colour="#0097a7" icon="tint">
+    <block type="wq_read"></block>
+    <block type="wq_set_probe"></block>
+    <block type="wq_cal_ph">
+      <value name="PH">
+        <shadow type="math_number">
+          <field name="NUM">6.86</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="wq_cal_ec">
+      <value name="EC">
+        <shadow type="math_number">
+          <field name="NUM">1413</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="wq_cal_do"></block>
+    <block type="wq_reset_calib"></block>
+    <block type="wq_read_raw"></block>
+    <block type="wq_describe"></block>
+  </category>
+</xml>

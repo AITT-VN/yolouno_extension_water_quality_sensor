@@ -1,0 +1,12 @@
+{
+  "name": "Cảm biến chất lượng nước",
+  "description": "Mục mở rộng cho Yolo UNO đọc giá trị cảm biến chất lượng nước",
+  "libs": ["water_quality.py"],
+  "blocks": ["definition.js"],
+  "toolbox": "toolbox.xml",
+  "languages": {
+    "en": "en.js",
+    "vi": "vi.js"
+  },
+  "poster": "poster.png"
+}
